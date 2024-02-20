@@ -1,0 +1,893 @@
+[
+  {
+    "class": "Conjunto",
+    "product": [
+      {
+        "id": "xCWmeXOM",
+        "image": "https://i.ibb.co/6g9QnSb/cnj-01-br.png",
+        "product_name": "Conjunto Alfaiataria Short e Cropped de Alça",
+        "current_price": 150.99,
+        "old_price": 205.60,
+        "itens": [
+          {
+            "id": "Rs5xi02G",
+            "product_name": "Conjunto Alfaiataria Short e Cropped de Alça",
+            "image": "https://i.ibb.co/6g9QnSb/cnj-01-br.png",
+            "color": "branco",
+            "current_price": 150.99,
+            "old_price": 205.60,
+            "stars": 3,
+            "part_sizes": [
+              {
+                "size": "P",
+                "qnt": 12
+              },
+              {
+                "size": "M",
+                "qnt": 10
+              },
+              {
+                "size": "G",
+                "qnt": 40
+              }
+            ],
+            "assessments": 52
+          },
+          {
+            "id": "fGUoH1QT",
+            "product_name": "Conjunto Alfaiataria Short e Cropped de Alça",
+            "image": "https://i.ibb.co/fvQt7sc/cnj-02-rs.png",
+            "color": "rosa",
+            "current_price": 150.99,
+            "old_price": 205.60,
+            "stars": 3,
+            "part_sizes": [
+              {
+                "size": "P",
+                "qnt": 31
+              },
+              {
+                "size": "M",
+                "qnt": 0
+              },
+              {
+                "size": "G",
+                "qnt": 89
+              }
+            ],
+            "assessments": 52
+          },
+          {
+            "id": "jbOAL0F0",
+            "product_name": "Conjunto Alfaiataria Short e Cropped de Alça",
+            "image": "https://i.ibb.co/tz7x4DQ/cnj-03-pt.png",
+            "color": "preto",
+            "current_price": 150.99,
+            "old_price": 205.60,
+            "stars": 3,
+            "part_sizes": [
+              {
+                "size": "P",
+                "qnt": 22
+              },
+              {
+                "size": "M",
+                "qnt": 64
+              },
+              {
+                "size": "G",
+                "qnt": 91
+              }
+            ],
+            "assessments": 52
+          }
+        ]
+      },
+      {
+        "id": "fidYslTK",
+        "image": "https://i.ibb.co/yFfnHxK/cnj-04-cr.png",
+        "product_name": "Conjunto Alfaiataria Calça e Blazer Moderno",
+        "current_price": 179.53,
+        "old_price": 260.25,
+        "itens": [
+          {
+            "id": "wfXhFFBZ",
+            "product_name": "Conjunto Alfaiataria Calça e Blazer Moderno",
+            "image": "https://i.ibb.co/yFfnHxK/cnj-04-cr.png",
+            "color": "creme",
+            "current_price": 179.53,
+            "old_price": 260.25,
+            "stars": 5,
+            "part_sizes": [
+              {
+                "size": "P",
+                "qnt": 32
+              },
+              {
+                "size": "M",
+                "qnt": 29
+              },
+              {
+                "size": "G",
+                "qnt": 0
+              }
+            ],
+            "assessments": 341
+          },
+          {
+            "id": "kwKbDiFb",
+            "product_name": "Conjunto Alfaiataria Calça e Blazer Moderno",
+            "image": "https://i.ibb.co/yscj76d/cnj-05-rs.png",
+            "color": "rosa",
+            "current_price": 179.53,
+            "old_price": 260.25,
+            "stars": 5,
+            "part_sizes": [
+              {
+                "size": "P",
+                "qnt": 12
+              },
+              {
+                "size": "M",
+                "qnt": 12
+              },
+              {
+                "size": "G",
+                "qnt": 34
+              }
+            ],
+            "assessments": 341
+          },
+          {
+            "id": "vyNx8Dob",
+            "product_name": "Conjunto Alfaiataria Calça e Blazer Moderno",
+            "image": "https://i.ibb.co/yFzsbD7/cnj-06-az.png",
+            "color": "azul",
+            "current_price": 179.53,
+            "old_price": 260.25,
+            "stars": 5,
+            "part_sizes": [
+              {
+                "size": "P",
+                "qnt": 23
+              },
+              {
+                "size": "M",
+                "qnt": 81
+              },
+              {
+                "size": "G",
+                "qnt": 38
+              }
+            ],
+            "assessments": 341
+          }
+        ]
+      },
+      {
+        "id": "Z6MVQldb",
+        "image": "https://i.ibb.co/vYCg3v4/cnj-07-xd.png",
+        "product_name": "Conjunto alfaiataria xadrez Tweed Jaqueta & Saia",
+        "current_price": 190.70,
+        "old_price": 250.89,
+        "itens": [
+          {
+            "id": "yZpXz2WW",
+            "product_name": "Conjunto alfaiataria xadrez Tweed Jaqueta & Saia",
+            "image": "https://i.ibb.co/vYCg3v4/cnj-07-xd.png",
+            "color": "xadrez",
+            "current_price": 190.70,
+            "old_price": 250.89,
+            "stars": 4,
+            "part_sizes": [
+              {
+                "size": "P",
+                "qnt": 36
+              },
+              {
+                "size": "M",
+                "qnt": 53
+              },
+              {
+                "size": "G",
+                "qnt": 3
+              }
+            ],
+            "assessments": 3225
+          }
+        ]
+      },
+      {
+        "id": "6ffn3laV",
+        "image": "https://i.ibb.co/FH0tp1X/cnj-08-rs.png",
+        "product_name": "Jaqueta Manga Sino, Ombros Caídos E Vestido",
+        "current_price": 140.68,
+        "old_price": 293.78,
+        "itens": [
+          {
+            "id": "vqxUNNYm",
+            "product_name": "Jaqueta Manga Sino, Ombros Caídos E Vestido",
+            "image": "https://i.ibb.co/FH0tp1X/cnj-08-rs.png",
+            "color": "rosa",
+            "current_price": 140.68,
+            "old_price": 293.78,
+            "stars": 3,
+            "part_sizes": [
+              {
+                "size": "P",
+                "qnt": 0
+              },
+              {
+                "size": "M",
+                "qnt": 23
+              },
+              {
+                "size": "G",
+                "qnt": 8
+              }
+            ],
+            "assessments": 34212
+          },
+          {
+            "id": "aHerZ30y",
+            "product_name": "Jaqueta Manga Sino, Ombros Caídos E Vestido",
+            "image": "https://i.ibb.co/XFfbW7K/cnj-09-rx.png",
+            "color": "roxa",
+            "current_price": 140.68,
+            "old_price": 293.78,
+            "stars": 3,
+            "part_sizes": [
+              {
+                "size": "P",
+                "qnt": 84
+              },
+              {
+                "size": "M",
+                "qnt": 53
+              },
+              {
+                "size": "G",
+                "qnt": 53
+              }
+            ],
+            "assessments": 34212
+          },
+          {
+            "id": "LquxNbad",
+            "product_name": "Jaqueta Manga Sino, Ombros Caídos E Vestido",
+            "image": "https://i.ibb.co/Sc93ZCL/cnj-10-vd.png",
+            "color": "verde",
+            "current_price": 140.68,
+            "old_price": 293.78,
+            "stars": 3,
+            "part_sizes": [
+              {
+                "size": "P",
+                "qnt": 0
+              },
+              {
+                "size": "M",
+                "qnt": 40
+              },
+              {
+                "size": "G",
+                "qnt": 35
+              }
+            ],
+            "assessments": 34212
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "class": "T-shirts",
+    "product": [
+      {
+        "id": "Nop07Ole",
+        "image": "https://i.ibb.co/h7yMLGX/cm-01-rs.png",
+        "product_name": "Blusa impressão total Manga em Camanadas",
+        "current_price": 99.23,
+        "old_price": 140.23,
+        "itens": [
+          {
+            "id": "eD70wFSF",
+            "product_name": "Blusa impressão total Manga em Camanadas",
+            "image": "https://i.ibb.co/h7yMLGX/cm-01-rs.png",
+            "color": "rosa",
+            "current_price": 99.23,
+            "old_price": 140.23,
+            "stars": 5,
+            "part_sizes": [
+              {
+                "size": "P",
+                "qnt": 14
+              },
+              {
+                "size": "M",
+                "qnt": 3
+              },
+              {
+                "size": "G",
+                "qnt": 20
+              }
+            ],
+            "assessments": 2320
+          },
+          {
+            "id": "tDMFJ1ZV",
+            "product_name": "Blusa impressão total Manga em Camanadas",
+            "image": "https://i.ibb.co/LZkzzXV/cm-02-br.png",
+            "color": "branco",
+            "current_price": 99.23,
+            "old_price": 140.23,
+            "stars": 5,
+            "part_sizes": [
+              {
+                "size": "P",
+                "qnt": 5
+              },
+              {
+                "size": "M",
+                "qnt": 8
+              },
+              {
+                "size": "G",
+                "qnt": 12
+              }
+            ],
+            "assessments": 2320
+          },
+          {
+            "id": "BVKjGjSy",
+            "product_name": "Blusa impressÃo total Manga em Camanadas",
+            "image": "https://i.ibb.co/0921NLj/cm-03-pt.png",
+            "color": "preto",
+            "current_price": 99.23,
+            "old_price": 140.23,
+            "stars": 5,
+            "part_sizes": [
+              {
+                "size": "P",
+                "qnt": 2
+              },
+              {
+                "size": "M",
+                "qnt": 6
+              },
+              {
+                "size": "G",
+                "qnt": 9
+              }
+            ],
+            "assessments": 2320
+          }
+        ]
+      },
+      {
+        "id": "7x0ZZekR",
+        "image": "https://i.ibb.co/Zdxy9xD/cm-04-rs.png",
+        "product_name": "T-shirt Sólido Gola Redonda",
+        "current_price": 67.59,
+        "old_price": 99.00,
+        "itens": [
+          {
+            "id": "JtqlkjzX",
+            "product_name": "T-shirt Sólido Gola Redonda",
+            "image": "https://i.ibb.co/Zdxy9xD/cm-04-rs.png",
+            "color": "rosa",
+            "current_price": 67.59,
+            "old_price": 99.00,
+            "stars": 4,
+            "part_sizes": [
+              {
+                "size": "P",
+                "qnt": 6
+              },
+              {
+                "size": "M",
+                "qnt": 52
+              },
+              {
+                "size": "G",
+                "qnt": 53
+              }
+            ],
+            "assessments": 124
+          },
+          {
+            "id": "v4a15USM",
+            "product_name": "T-shirt Sólido Gola Redonda",
+            "image": "https://i.ibb.co/B6mDgkh/cm-05-rx.png",
+            "color": "roxa",
+            "current_price": 67.59,
+            "old_price": 99.00,
+            "stars": 4,
+            "part_sizes": [
+              {
+                "size": "P",
+                "qnt": 5
+              },
+              {
+                "size": "M",
+                "qnt": 3
+              },
+              {
+                "size": "G",
+                "qnt": 4
+              }
+            ],
+            "assessments": 124
+          },
+          {
+            "id": "xTIR8dwf",
+            "product_name": "T-shirt Sólido Gola Redonda",
+            "image": "https://i.ibb.co/jhXC8Vk/cm-06-az.png",
+            "color": "azul",
+            "current_price": 67.59,
+            "old_price": 99.00,
+            "stars": 4,
+            "part_sizes": [
+              {
+                "size": "P",
+                "qnt": 7
+              },
+              {
+                "size": "M",
+                "qnt": 21
+              },
+              {
+                "size": "G",
+                "qnt": 75
+              }
+            ],
+            "assessments": 124
+          }
+        ]
+      },
+      {
+        "id": "ObtOWGCy",
+        "image": "https://i.ibb.co/Vq2MCBn/cm-07-az.png",
+        "product_name": "T-shirt Top sólido manga bufante",
+        "current_price": 74.99,
+        "old_price": 115.86,
+        "itens": [
+          {
+            "id": "kJz40zVr",
+            "product_name": "T-shirt Top sólido manga bufante",
+            "image": "https://i.ibb.co/Vq2MCBn/cm-07-az.png",
+            "color": "azul",
+            "current_price": 74.99,
+            "old_price": 115.86,
+            "stars": 5,
+            "part_sizes": [
+              {
+                "size": "P",
+                "qnt": 8
+              },
+              {
+                "size": "M",
+                "qnt": 34
+              },
+              {
+                "size": "G",
+                "qnt": 0
+              }
+            ],
+            "assessments": 830
+          },
+          {
+            "id": "eeNXi9CY",
+            "product_name": "T-shirt Top sólido manga bufante",
+            "image": "https://i.ibb.co/RvXmFYv/cm-08-vm.png",
+            "color": "vermelho",
+            "current_price": 67.59,
+            "old_price": 99.00,
+            "stars": 4,
+            "part_sizes": [
+              {
+                "size": "P",
+                "qnt": 0
+              },
+              {
+                "size": "M",
+                "qnt": 2
+              },
+              {
+                "size": "G",
+                "qnt": 9
+              }
+            ],
+            "assessments": 830
+          },
+          {
+            "id": "6Hh9J9nF",
+            "product_name": "T-shirt Top sólido manga bufante",
+            "image": "https://i.ibb.co/phsJN91/cm-09-rx.png",
+            "color": "roxa",
+            "current_price": 67.59,
+            "old_price": 99.00,
+            "stars": 4,
+            "part_sizes": [
+              {
+                "size": "P",
+                "qnt": 3
+              },
+              {
+                "size": "M",
+                "qnt": 0
+              },
+              {
+                "size": "G",
+                "qnt": 15
+              }
+            ],
+            "assessments": 830
+          }
+        ]
+      },
+      {
+        "id": "Zd4RRmlM",
+        "image": "https://i.ibb.co/MNGP69s/cm-10-br.png",
+        "product_name": "T-shirt gola quadrada manga bufante",
+        "current_price": 109.99,
+        "old_price": 299.78,
+        "itens": [
+          {
+            "id": "1h8XDKWk",
+            "product_name": "T-shirt gola quadrada manga bufante",
+            "image": "https://i.ibb.co/MNGP69s/cm-10-br.png",
+            "color": "branco",
+            "current_price": 109.99,
+            "old_price": 299.78,
+            "stars": 4,
+            "part_sizes": [
+              {
+                "size": "P",
+                "qnt": 23
+              },
+              {
+                "size": "M",
+                "qnt": 4
+              },
+              {
+                "size": "G",
+                "qnt": 6
+              }
+            ],
+            "assessments": 1230
+          },
+          {
+            "id": "giy3MM6G",
+            "product_name": "T-shirt Top sólido manga bufante",
+            "image": "https://i.ibb.co/FVB2B2S/cm-11-pt.png",
+            "color": "preto",
+            "current_price": 109.99,
+            "old_price": 299.78,
+            "stars": 4,
+            "part_sizes": [
+              {
+                "size": "P",
+                "qnt": 10
+              },
+              {
+                "size": "M",
+                "qnt": 23
+              },
+              {
+                "size": "G",
+                "qnt": 47
+              }
+            ],
+            "assessments": 1230
+          },
+          {
+            "id": "neSujQuz",
+            "product_name": "T-shirt Top sólido manga bufante",
+            "image": "https://i.ibb.co/pPCNtHT/cm-12-rs.png",
+            "color": "rosa",
+            "current_price": 109.99,
+            "old_price": 299.78,
+            "stars": 4,
+            "part_sizes": [
+              {
+                "size": "P",
+                "qnt": 0
+              },
+              {
+                "size": "M",
+                "qnt": 40
+              },
+              {
+                "size": "G",
+                "qnt": 35
+              }
+            ],
+            "assessments": 1230
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "class": "Casacos",
+    "product": [
+      {
+        "id": "W0V1aftL",
+        "image": "https://i.ibb.co/LJ8sLL8/cs-01-br.png",
+        "product_name": "Casaco Sólido Manga de Bishop Frente Aberta",
+        "current_price": 120.23,
+        "old_price": 200.23,
+        "itens": [
+          {
+            "id": "ZiztzIRM",
+            "product_name": "Casaco Sólido Manga de Bishop Frente Aberta",
+            "image": "https://i.ibb.co/LJ8sLL8/cs-01-br.png",
+            "color": "branco",
+            "current_price": 120.23,
+            "old_price": 200.23,
+            "stars": 4,
+            "part_sizes": [
+              {
+                "size": "P",
+                "qnt": 4
+              },
+              {
+                "size": "M",
+                "qnt": 6
+              },
+              {
+                "size": "G",
+                "qnt": 0
+              }
+            ],
+            "assessments": 783
+          }
+        ]
+      },
+      {
+        "id": "osW9Zeuf",
+        "image": "https://i.ibb.co/HPfCd6W/cs-02-br.png",
+        "product_name": "Casaco Frente Aberta Ombro caído",
+        "current_price": 79.90,
+        "old_price": 120.23,
+        "itens": [
+          {
+            "id": "3zrfkHBU",
+            "product_name": "Casaco Frente Aberta Ombro caído",
+            "image": "https://i.ibb.co/HPfCd6W/cs-02-br.png",
+            "color": "branco",
+            "current_price": 79.90,
+            "old_price": 120.23,
+            "stars": 4,
+            "part_sizes": [
+              {
+                "size": "P",
+                "qnt": 0
+              },
+              {
+                "size": "M",
+                "qnt": 23
+              },
+              {
+                "size": "G",
+                "qnt": 80
+              }
+            ],
+            "assessments": 2345
+          },
+          {
+            "id": "3Jh4CZtb",
+            "product_name": "Casaco Frente Aberta Ombro caído",
+            "image": "https://i.ibb.co/pQvx4Qq/cs-03-pt.png",
+            "color": "preto",
+            "current_price": 79.90,
+            "old_price": 120.23,
+            "stars": 4,
+            "part_sizes": [
+              {
+                "size": "P",
+                "qnt": 50
+              },
+              {
+                "size": "M",
+                "qnt": 34
+              },
+              {
+                "size": "G",
+                "qnt": 5
+              }
+            ],
+            "assessments": 2345
+          },
+          {
+            "id": "Ejkykd0D",
+            "product_name": "Casaco Frente Aberta Ombro caído",
+            "image": "https://i.ibb.co/0BSLp62/cs-04-cz.png",
+            "color": "cinza",
+            "current_price": 79.90,
+            "old_price": 120.23,
+            "stars": 4,
+            "part_sizes": [
+              {
+                "size": "P",
+                "qnt": 24
+              },
+              {
+                "size": "M",
+                "qnt": 24
+              },
+              {
+                "size": "G",
+                "qnt": 2
+              }
+            ],
+            "assessments": 2345
+          }
+        ]
+      },
+      {
+        "id": "EDYFjXAA",
+        "image": "https://i.ibb.co/6mmDBBv/cs-05-cm.png",
+        "product_name": "Sobretudos Trespassado com cinto",
+        "current_price": 205.23,
+        "old_price": 350.30,
+        "itens": [
+          {
+            "id": "oZTuMgkB",
+            "product_name": "Sobretudos Trespassado com cinto",
+            "image": "https://i.ibb.co/6mmDBBv/cs-05-cm.png",
+            "color": "creme",
+            "current_price": 205.23,
+            "old_price": 350.30,
+            "stars": 5,
+            "part_sizes": [
+              {
+                "size": "P",
+                "qnt": 81
+              },
+              {
+                "size": "M",
+                "qnt": 324
+              },
+              {
+                "size": "G",
+                "qnt": 2
+              }
+            ],
+            "assessments": 1242
+          },
+          {
+            "id": "mePLyG40",
+            "product_name": "Sobretudos Trespassado com cinto",
+            "image": "https://i.ibb.co/cDmmXpK/cs-06-vm.png",
+            "color": "vermelho",
+            "current_price": 205.23,
+            "old_price": 350.30,
+            "stars": 5,
+            "part_sizes": [
+              {
+                "size": "P",
+                "qnt": 0
+              },
+              {
+                "size": "M",
+                "qnt": 0
+              },
+              {
+                "size": "G",
+                "qnt": 24
+              }
+            ],
+            "assessments": 1242
+          },
+          {
+            "id": "IzKjuIkp",
+            "product_name": "Sobretudos Trespassado com cinto",
+            "image": "https://i.ibb.co/bBDHpqp/cs-07-pt.png",
+            "color": "preto",
+            "current_price": 205.23,
+            "old_price": 350.30,
+            "stars": 5,
+            "part_sizes": [
+              {
+                "size": "P",
+                "qnt": 33
+              },
+              {
+                "size": "M",
+                "qnt": 0
+              },
+              {
+                "size": "G",
+                "qnt": 0
+              }
+            ],
+            "assessments": 1242
+          }
+        ]
+      },
+      {
+        "id": "BBsb8Zf8",
+        "image": "https://i.ibb.co/NF6Kp3B/cs-08-az.png",
+        "product_name": "Sobretudos femininos Bolso Simples elegante",
+        "current_price": 346.99,
+        "old_price": 599.78,
+        "itens": [
+          {
+            "id": "sWraGPfL",
+            "product_name": "Sobretudos femininos Bolso Simples elegante",
+            "image": "https://i.ibb.co/NF6Kp3B/cs-08-az.png",
+            "color": "azul",
+            "current_price": 346.99,
+            "old_price": 599.78,
+            "stars": 4,
+            "part_sizes": [
+              {
+                "size": "P",
+                "qnt": 0
+              },
+              {
+                "size": "M",
+                "qnt": 42
+              },
+              {
+                "size": "G",
+                "qnt": 36
+              }
+            ],
+            "assessments": 421
+          },
+          {
+            "id": "B3J9gQoV",
+            "product_name": "Sobretudos femininos Bolso Simples elegante",
+            "image": "https://i.ibb.co/1MjC5CW/cs-09-rs.png",
+            "color": "rosa",
+            "current_price": 346.99,
+            "old_price": 599.78,
+            "stars": 4,
+            "part_sizes": [
+              {
+                "size": "P",
+                "qnt": 10
+              },
+              {
+                "size": "M",
+                "qnt": 21
+              },
+              {
+                "size": "G",
+                "qnt": 75
+              }
+            ],
+            "assessments": 421
+          },
+          {
+            "id": "JYtDcLwB",
+            "product_name": "Sobretudos femininos Bolso Simples elegante",
+            "image": "https://i.ibb.co/G9LKKyH/cz-10-lr.png",
+            "color": "laranja",
+            "current_price": 346.99,
+            "old_price": 599.78,
+            "stars": 4,
+            "part_sizes": [
+              {
+                "size": "P",
+                "qnt": 5
+              },
+              {
+                "size": "M",
+                "qnt": 0
+              },
+              {
+                "size": "G",
+                "qnt": 323
+              }
+            ],
+            "assessments": 421
+          }
+        ]
+      }
+    ]
+  }
+]
