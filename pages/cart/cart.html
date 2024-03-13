@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="../../style.css">
+  <link rel="stylesheet" href="./style.css">
+
+  <title>DevFashion</title>
+</head>
+<body>
+  <div class="container">
+    <!-- INICIO HEADER -->
+    <header id="header">
+      <a href="/">
+        <img class="header-logo-icon" src="../../image/logo-img.svg" alt="logo-img">
+        <img class="header-logo-text" src="../../image/logo.svg" alt="logo">
+      </a>
+
+      <div class="header-menu">
+        <img class="header-cart-icon" src="../../image/cart.svg" alt="cart-img">
+        <img class="header-profile-icon" src="../../image/user.svg" alt="user-img">
+      </div>
+    </header>
+    <!-- FIM HEADER -->
+
+    <!-- INICIO HOME -->
+    <main id="home">
+      <div class="item-container">
+        <h2 class="title-cart">Todos os itens</h2>
+        <div class="item-content">      
+          <section class="item-card-list">           
+            <div class="item-card">
+              <div class="card-leftSide">
+                <figure>
+                  <img src="../../image/01.svg" alt="item-image">
+                </figure>
+              </div>
+
+              <div class="card-rigthSide">
+                <div>
+                  <h3>T-shirt Top sólido manga bufante</h3>
+
+                  <div class="card-collor-size">
+                    <p>Cor: Azul</p>
+
+                    <span>P</span>
+                  </div>
+                </div>
+
+
+                <div class="card-controllers">
+                  <strong>$74,99</strong>
+
+                  <div class="buttonQnt">
+                    <button type="button" onclick="">-</button>
+                    <span class="buttonQnt-item">1</span>
+                    <button type="button" onclick="">+</button>
+                  </div>
+
+                  <button>
+                    <img src="../../image/trash.svg" alt="trash-icon">
+                  </button>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="box-total">
+            <div class="box-container">
+              <h3 class="box-title">Valor total do seu pedido:</h3>
+
+              <strong class="box-finalValue">$470,92</strong>
+
+              <button class="finisheBuy">Finaliza compra</button>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <!-- FIM HOME -->
+  </div>
+
+  <script src="./cart.js"></script>
+</body>
+</html> 

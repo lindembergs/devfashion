@@ -1,0 +1,387 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: "Montserrat", sans-serif;
+
+  background: #f5f5f5;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* COMEÇO DO HEADER */
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 6.5rem;
+  padding: 1.6rem 5%;
+}
+
+.header-logo-icon {
+  height: 3.2rem;
+  width: 3.2rem;
+  margin-right: 2.4rem;
+}
+
+.header-logo-text {
+  height: 3.2rem;
+  width: 21.6rem;
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+
+  gap: 4.8rem
+}
+
+.header-cart-icon {
+  position: relative;
+}
+
+.header-cart-icon img {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+/* .header-cart-icon::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  width: 10px;
+  height: 10px;
+  background: red;
+  border-radius: 50px;
+  z-index: 100;
+  opacity: 1;
+} */
+
+
+.header-profile-icon img {
+  height: 2.4rem;
+  width: 2.75rem;
+}
+/* FIM DO HEADER */
+
+/* COMEÇO DA HOME */
+.home-capa  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  max-height: 500px;
+  overflow: hidden;
+
+  margin-bottom: 10rem;
+}
+
+.home-capa img {
+  height: 100%;
+  width: 100%;
+}
+
+.section-collection {
+  margin: 0rem 5% 10rem; 
+}
+
+.title {
+  position: relative;
+  font-weight: 400;
+  font-size: 4.8rem;
+  line-height: 5.85rem;
+
+  margin-bottom: 2.4rem;
+}
+
+.card-collection {
+  display: flex;
+  gap: 3.2rem
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+
+  width: 25%;
+
+  background: #fff;
+  border-radius: 0px 0px 8px 8px;
+}
+
+.card-img {
+  position: relative;
+
+  width: 100%;
+
+  overflow: hidden;
+}
+
+.card-img a {
+  display: flex;
+}
+
+.card-img img {
+  height: 100%;
+  width: 100%;
+  
+  transition: all .2s ease-in-out;
+}
+
+.card-img:hover img {
+  transform: scale(1.25);
+  cursor: pointer;
+}
+
+.card-description {
+  padding: 1.6rem 1.6rem .8rem;
+}
+
+.card-name-product {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 19.5px;
+
+  margin-bottom: 4px;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  -webkit-box-orient: vertical; 
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+
+  font-size: 1.6rem;
+  line-height: 1.95rem;
+  font-weight: 700;
+}
+
+.card-currenty-price {
+  color: #9CA3AF;
+  text-decoration: line-through;
+}
+
+.card-old-price {
+  color: #374151;
+}
+
+.card-footer div {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1.6rem;
+}
+
+.card-footer button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: #000;
+}
+
+.card-footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#footer {
+  padding: 6.2rem 7.2rem;
+  width: 100%;
+  background: #fff;
+
+  gap: 6.2rem;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.footer-rows {
+  display: flex;
+  justify-content: space-between;
+
+  gap: 3rem;
+
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.footer-rows ul {
+  list-style: none;
+  font-weight: 400;
+}
+
+.footer-rows li {
+  font-size: 1.6rem;
+  margin-top: .8rem;
+
+  transition: all .2s;
+}
+
+.footer-rows h6 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.95rem;
+
+  margin-bottom: 0.8rem;
+}
+
+.links-section {
+  display: flex;
+  justify-content: space-between;
+
+  gap: 2.5rem;
+  width: 49%;
+
+  min-width: 54rem;
+}
+
+.links-collun {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-rows li:hover {
+  cursor: pointer;
+  color: #713c27;
+  transform: scale(1.04);
+}
+
+.networks-section {
+  width: 43%;
+  min-width: 41.5rem;
+}
+
+.network-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.network-content div div {
+  display: flex;
+  gap: 1.65rem;
+  margin-top: 0.6rem;
+}
+
+.sign-up {
+  display: flex;
+  flex-direction: column;
+  
+  margin-top: 4rem;
+}
+
+.sign-up a {
+  text-decoration: none;
+  color: #6B7280;
+}
+
+.sign-up small {
+  margin-top: 1.8rem;
+
+  color: #6B7280;
+  font-weight: 400;
+  font-size: .8rem;
+  line-height: .975rem;
+}
+
+.input-email {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-email input {
+  width: 69%;
+  padding: 13px 16px 13px 16px;
+  border: 1px solid #9CA3AF;
+  gap: 10px;
+}
+
+.input-email button {
+  text-transform: uppercase;
+  color: #fff;
+  width: 29%;
+
+  background: #1F2937;
+
+  transition: all .2s ease-in-out;
+}
+
+.input-email button:hover {
+  opacity: .8;
+}
+
+.rights {
+  width: 54%;
+}
+
+.rights p {
+  margin-bottom: 2.4rem;
+
+  color: #6B7280;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.95rem;
+}
+
+.rights ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.4rem 1.6rem;
+}
+
+.rights ul li {
+  color: #6B7280;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.95rem;
+}
+
+.flags {
+  width: 43%
+}
+
+.flags img {
+  margin-top: 1.8rem
+}
+
+.teste {
+  background: red;
+  font-size: 1.6rem;
+}
+
+@media(max-width: 1143px) {
+  .footer-rows {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-rows section {
+    width: 100%;
+  }
+}
