@@ -15,6 +15,7 @@ let cart = {
   partColor: '',
   partSize: '',
   partPrice: '',
+  partQnt: 1
 }
 
 // Função de consumo de dados vindos do localStorage
@@ -27,6 +28,7 @@ function handleGetProduct() {
 function handleCreateDetails(product) {
   let i = currentPart.partColorIdx
 
+  // Validação de atualização. Antes de contruir, deverá excluir o que existe p/ não ficar duplicado
   const contructContainer = document.querySelector('.product-container')
   if(contructContainer) {
     contructContainer.remove()

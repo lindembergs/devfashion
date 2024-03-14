@@ -91,6 +91,7 @@
 .card-collor-size {
   display: flex;
   align-items: center;
+  text-transform: capitalize;
 
   gap: 3.2rem;
 }
@@ -132,7 +133,7 @@
   color: #374151;
 }
 
-.buttonQnt {
+.button-controller {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -140,7 +141,7 @@
   height: 4rem;
 }
 
-.buttonQnt button {
+.button-controller button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -154,9 +155,16 @@
   background: #fff;
 
   border: 1px solid #000;
+
+  transition: all .2s ease-in-out;
 }
-  
-.buttonQnt span {
+
+.button-controller button:hover {
+  color: #fff;
+  background: #000;
+}
+
+.button-controller span {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -166,6 +174,19 @@
   font-size: 2.5rem;
   background: #fff;
   border: 1px solid #000;
+}
+
+.trash-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: all .2s ease-in-out;
+}
+
+.trash-button:hover {
+  background: #c6c5c59f;
+  border-radius: 50%;
 }
 
 .box-total {
@@ -220,6 +241,12 @@
   border-radius: 1.8rem;
   
   background: #1A1A1D;
+
+  transition: all .2s ease-in-out;
+}
+
+.finisheBuy:hover {
+  opacity: .9;
 }
 
 @media(max-width: 940px) {

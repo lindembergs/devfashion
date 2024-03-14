@@ -195,6 +195,10 @@
   font-weight: 700;
 }
 
+.soldOff {
+  cursor: not-allowed;
+}
+
 .product-add-to-cart:hover {
   opacity: .9;
 }
