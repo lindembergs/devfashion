@@ -10,9 +10,6 @@ function handleGetCart() {
 
 // Função de criação de lista de itens
 function handleCreateCartList(cart) {
-  console.log(cart)
-
-  // itemCardList.innerHTML = ''
   const constructItemCardDiv = document.querySelectorAll('.item-card')
   constructItemCardDiv?.forEach(item => {
     item.remove()
@@ -126,6 +123,7 @@ function handleDeleteItem(id, size, cart) {
   handleGetCart()
 }
 
+// Função de somar o itens
 function handleSumOfItens(cart) {
   let totalPrice = 0
 

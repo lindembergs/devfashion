@@ -42,10 +42,21 @@ function hanldeCreateCollections(json) {
 
 // Função de criação de card
 function handleCreateCard(elementDiv, json) {
+  const swiperDiv = document.createElement('div')
+  swiperDiv.classList.add('swiper')
+  swiperDiv.classList.add('mySwiper')
+
+  const swiperWrapperDiv = document.createElement('div')
+  swiperWrapperDiv.classList.add('swiper-wrapper')
+  
   json.forEach(item => {  
+    const cardSwiperSlideDiv = document.createElement('div')
+    cardSwiperSlideDiv.classList.add('swiper-slide')
+
     const cardDiv = document.createElement('div');
     cardDiv.classList.add('card')
-
+    cardDiv.classList.add('card-swiper')
+    
     const cardImgDiv = document.createElement('div')
     cardImgDiv.classList.add('card-img')
     const cardImgButton = document.createElement('button')
@@ -95,8 +106,14 @@ function handleCreateCard(elementDiv, json) {
 
     cardDiv.appendChild(cardImgDiv)
     cardDiv.appendChild(cardDescriptionDiv)
+
+    cardSwiperSlideDiv.appendChild(cardDiv)
+    swiperWrapperDiv.appendChild(cardSwiperSlideDiv)
+    swiperDiv.appendChild(swiperWrapperDiv)
     
-    elementDiv.appendChild(cardDiv)
+    elementDiv.appendChild(swiperDiv)
+
+    handleWidth(window.innerWidth)
   })
 }
 
@@ -110,4 +127,49 @@ function handleSaveProduct(data) {
   localStorage.setItem('@devFashion:product', JSON.stringify(data))
 }
 
+// Função de verificação de tamnho para definir o numero de slides
+function handleWidth(width) {
+  const sectionCollection = document.querySelectorAll('.section-collection')
+  let slideShow;
+
+  if (width <= 750) {
+    slideShow = '3.5'
+    sectionCollection.forEach(item => item.style.margin = '0px 0px 10rem 5%')
+  } 
+  
+  if (width <= 580) {
+    slideShow = '3'
+  } 
+  
+  if (width <= 485) {
+    slideShow = '2.5'
+  } 
+  
+  if (width <= 420) {
+    slideShow = '2'
+  } 
+
+  if (width > 750) {
+    slideShow = '4'
+    sectionCollection.forEach(item => item.style.margin = '0rem 5% 10rem')
+  }
+
+  handleConstructionSwiper(slideShow)
+}
+
+// Função que monitora o tamanho da tela
+window.addEventListener('resize', (e) => {
+  handleWidth(e.target.innerWidth);
+})
+
+// Função que constroi o Swiper (Carrossel)
+function handleConstructionSwiper(slides) {
+  return swiper = new Swiper(".mySwiper", {
+    slidesPerView: slides,
+    spaceBetween: 32,
+  });
+}
+
 handleData()
+
+handleConstructionSwiper()
