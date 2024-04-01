@@ -105,6 +105,7 @@ button {
 
 .card {
   min-width: 150px;
+  max-width: 90%;
 }
 
 .card-collection {
@@ -496,4 +497,9 @@ button {
   .home-capa {
     max-height: 30vw;
   }
+}
+@media(min-width: 1300px){
+ .card{
+  max-width: 75%;
+ }
 }
