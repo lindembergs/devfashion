@@ -112,6 +112,8 @@ function handleCreateCard(elementDiv, json) {
     swiperDiv.appendChild(swiperWrapperDiv)
     
     elementDiv.appendChild(swiperDiv)
+
+    handleWidth(window.innerWidth)
   })
 }
 
@@ -125,38 +127,53 @@ function handleSaveProduct(data) {
   localStorage.setItem('@devFashion:product', JSON.stringify(data))
 }
 
+// Função de verificação de tamnho para definir o numero de slides
+function handleWidth(width) {
+  const sectionCollection = document.querySelectorAll('.section-collection')
+  let slideShow;
+
+  if (width <= 750) {
+    slideShow = '3.5'
+    sectionCollection.forEach(item => item.style.margin = '0px 0px 10rem 5%')
+  } 
+  
+  if (width <= 580) {
+    slideShow = '3'
+  } 
+  
+  if (width <= 485) {
+    slideShow = '2.5'
+  } 
+  
+  if (width <= 420) {
+    slideShow = '2'
+  } 
+
+  if (width > 750) {
+    slideShow = '4'
+    sectionCollection.forEach(item => item.style.margin = '0rem 5% 10rem')
+  }
+
+  handleConstructionSwiper(slideShow)
+}
+
+// Função que monitora o tamanho da tela
+window.addEventListener('resize', (e) => {
+  handleWidth(e.target.innerWidth);
+})
+
 // Função que constroi o Swiper (Carrossel)
 function handleConstructionSwiper() {
   return new Swiper(".mySwiper", {
-    slidesPerView: 4,
-    parallax: true,
-    bulletActiveClass: true,
-    dynamicBullets: true,
     updateOnWindowResize: true,
     spaceBetween: 30,
-    rewind: true,
     loop: false,
-    longSwipes: true,
     grabCursor: true,
     type: 'bullets',
     freeMode: true,
-    freeModeMomentum: false,
-    freeModeMomentumRatio: 0.5,
-    freeModeMomentumBounce: false,  
-    freeModeSticky: true,           
-    freeMode: {
-      enabled: true,
-      sticky: true,
-    },
-    // autoplay: {
-    //   delay: 20000,
-    // },
     scrollbar: {
       el: '.swiper-scrollbar',
       draggable: true,
-    },
-    controller: {
-      inverse: true,
     },
     pagination: {
       el: `.swiper-pagination`,
@@ -177,6 +194,10 @@ function handleConstructionSwiper() {
       },
       1024: {
         slidesPerView: 3,
+        spaceBetween: 20,
+      },
+      1500: {
+        slidesPerView: 4,
         spaceBetween: 20,
       },
       320: {
