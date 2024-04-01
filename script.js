@@ -163,10 +163,64 @@ window.addEventListener('resize', (e) => {
 })
 
 // Função que constroi o Swiper (Carrossel)
-function handleConstructionSwiper(slides) {
-  return swiper = new Swiper(".mySwiper", {
-    slidesPerView: slides,
-    spaceBetween: 32,
+function handleConstructionSwiper() {
+  return new Swiper(".mySwiper", {
+    slidesPerView: 4,
+    parallax: true,
+    bulletActiveClass: true,
+    dynamicBullets: true,
+    updateOnWindowResize: true,
+    spaceBetween: 30,
+    rewind: true,
+    loop: false,
+    longSwipes: true,
+    grabCursor: true,
+    type: 'bullets',
+    freeMode: true,
+    freeModeMomentum: false,
+    freeModeMomentumRatio: 0.5,
+    freeModeMomentumBounce: false,  
+    freeModeSticky: true,           
+    freeMode: {
+      enabled: true,
+      sticky: true,
+    },
+    // autoplay: {
+    //   delay: 20000,
+    // },
+    scrollbar: {
+      el: '.swiper-scrollbar',
+      draggable: true,
+    },
+    controller: {
+      inverse: true,
+    },
+    pagination: {
+      el: `.swiper-pagination`,
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev'
+    },
+    breakpoints: {
+      480: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 15,
+      },
+      1024: {
+        slidesPerView: 3,
+        spaceBetween: 20,
+      },
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 5,
+      }
+    }
   });
 }
 
