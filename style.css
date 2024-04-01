@@ -444,6 +444,18 @@ button {
 
 }
 
+@media(max-width: 767px){
+.swiper-wrapper{
+  height: 700px !important;
+}
+.card{
+  max-height: 100%;
+}
+.card img{
+  object-fit: cover;
+}
+}
+
 @media(max-width: 450px){
   .header-logo-icon{
     height: 2.5rem;
