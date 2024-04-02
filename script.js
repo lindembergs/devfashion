@@ -165,6 +165,7 @@ window.addEventListener('resize', (e) => {
 // Função que constroi o Swiper (Carrossel)
 function handleConstructionSwiper() {
   return new Swiper(".mySwiper", {
+    slidesPerView: 4,
     updateOnWindowResize: true,
     spaceBetween: 30,
     loop: false,
@@ -184,31 +185,31 @@ function handleConstructionSwiper() {
       prevEl: '.swiper-button-prev'
     },
     breakpoints: {
-      480: {
-        slidesPerView: 1,
-        spaceBetween: 20,
-      },
-      500: {
-        slidesPerView: 2,
-        spaceBetween: 15,
-      },
-      600: {
-        slidesPerView: 2,
-        spaceBetween: 15,
-      },
-      768: {
-        slidesPerView: 2,
-        spaceBetween: 15,
-      },
-      1024: {
-        slidesPerView: 3,
-        spaceBetween: 20,
-      },
-      1500: {
+      1300: {
         slidesPerView: 4,
         spaceBetween: 20,
       },
-      320: {
+      1024: {
+        slidesPerView: 4,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 15,
+      },
+      600: {
+        slidesPerView: 3,
+        spaceBetween: 15,
+      },
+      500: {
+        slidesPerView: 3,
+        spaceBetween: 15,
+      },
+      330: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      300: {
         slidesPerView: 1,
         spaceBetween: 5,
       }
